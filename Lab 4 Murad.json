@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "language_info": {
+      "codemirror_mode": {
+        "name": "python",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.8"
+    },
+    "kernelspec": {
+      "name": "python",
+      "display_name": "Python (Pyodide)",
+      "language": "python"
+    }
+  },
+  "nbformat_minor": 4,
+  "nbformat": 4,
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": "a = \"Hello\"\nprint(a)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "Hello\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "x = 2\ny = 3.5\nz = 2j\n\nprint(type(x))\nprint(type(y))\nprint(type(z))",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "<class 'int'>\n<class 'float'>\n<class 'complex'>\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "b=32\nprint(b)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "32\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "x=complex(5,7)\nprint(x)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "(5+7j)\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "x=24\ny=8\nprint(x/y)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "3.0\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "fruit=[\"appler\",\"banana\",\"lemon\",\"orange\"]\nprint(fruit)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "['appler', 'banana', 'lemon', 'orange']\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "",
+      "metadata": {},
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
